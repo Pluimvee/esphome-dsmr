@@ -62,8 +62,10 @@ Notes
 - If a value is not updated within `obis_validity`, it is published as `NaN` (unavailable in Home Assistant).
 - Entries with multiple values (like gas usage) are not yet supported ()
 
-In DEBUG level the DSMR telegram is logged using multiple cycles to prevent log overruns
+Telegram logging
 -----
+
+In DEBUG mode the DSMR telegram is logged in multiple cycles to prevent log overruns
 
 [15:47:24.077][D][p1_dsmr:147]: DSMR telegram line 1: /ISk5\2MT382-1000
 [15:47:24.127][D][p1_dsmr:147]: DSMR telegram line 2:
