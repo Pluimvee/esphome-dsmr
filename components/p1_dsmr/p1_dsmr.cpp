@@ -198,7 +198,7 @@ void P1DsmrComponent::parse_telegram_(char *buf) {
       _log_line_start = 0;
   }
   if (records > 0) {
-    ESP_LOGI(TAG, "Parsed DSMR telegram: %d lines, %d records", lines, records);
+    ESP_LOGD(TAG, "Parsed DSMR telegram: %d lines, %d records", lines, records);
   } else {
     ESP_LOGW(TAG, "Telegram contained no usable records");
   }
